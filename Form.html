@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Praktikum Form</title>
+    </head>
+    <body>
+        <h1>From Pendaftaran SPMB</h1>
+        <from>
+            <table>
+                <tr>
+                    <td><label>Nama Lengkap</label></td>
+                    <td>:</td>
+                    <td><input type="text" reguired placholder="Masukan Nama Lengkap"></td>
+                </tr>
+                <tr>
+                    <td><label>NIK</label></td>
+                    <td>:</td>
+                    <td> <input type="number"></td>
+                </tr>
+                <tr>
+                    <td><label>Email</label></td>
+                    <td>:</td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td><label>password</label></td>
+                    <td>:</td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td><label>Alamat</label></td>
+                    <td>:</td>
+                    <td><textarea placholder="Masukan Alamat"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label>Tanggal Lahir</label></td>
+                    <td>:</td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td><label>Jenis Kelamin</label></td>
+                    <td>:</td>
+                    <td><input type="radio" name="jeniskelamin">Lakilaki
+                        <input type="radio" name="jeniskelamin">Perempuan</td>
+                </tr>
+                <tr>
+                    <td><label>Mata Pelajara yang disukai</label></td>
+                    <td>:</td>
+                    <td><input type="checkbox" name="mapel">Matematika
+                        <input type="checkbox" name="mapel">B inggris
+                        <input type="checkbox" name="mapel">B Indonesia
+                        <input type="checkbox" name="mapel">Fisika</td>
+                </tr>
+                <tr>
+                    <td><label>Jurusan</label></td> 
+                    <td>:</td>
+                    <td><select name="jurusan">
+                        <option value="RPL">RPL</option>    
+                        <option value="TKJ">TKJ</option>    
+                        <option value="PG">PG</option>
+                    </select></td>   
+                    
+                <tr>
+                    <td><label>Upload Foto</label></td>
+                    <td>:</td>
+                    <td><input type="file"></td>
+                </tr>
+
+            </table>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </body>
+</html>
