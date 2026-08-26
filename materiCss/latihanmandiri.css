@@ -1,0 +1,26 @@
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:deeppink;
+}
+.highlight {
+  font-family: 'Times New Roman', Times, serif;
+  color:deeppink;
+  font-weight: bold;  
+}
+#judul-utama {
+    color:fuchsia;
+    text-align: center;
+}
+h2 {
+    color:darkgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+ol {
+    color:deeppink;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+table {
+    background-color:fuchsia;
+    font-weight: bold;
+}
