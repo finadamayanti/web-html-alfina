@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Praktikum 1</title>
+</head>
+<body>
+    <h1 id='judul'> Aku Belum Berubah</h1>
+    <button id='btnUbah'>Ubah Teks</button>
+    <button id='btnWarna'>Ubah Warna</button>
+    <button id='btnUkuran'>Ubah Ukuran </button>
+    <button id='btnReset'>Reset</button>
+
+    <script>
+        const judul = document.getElementById('judul');
+        const btnUbah = document.getElementById('btnUbah');
+        const btnWarna = document.getElementById('btnWarna');
+        const btnUkuran = document.getElementById('btnUkuran');
+        const btnReset = document.getElementById('btnReset');
+
+        btnUbah.addEventListener('click', () => {
+            judul.textContent = 'Aku Sudah Berubah!';
+        });
+
+        btnWarna.addEventListener('click', () => {
+            judul.style.color = 'pink';
+        });
+
+        btnUkuran.addEventListener('click', () => {
+            judul.style.fontSize = '50px';
+        });
+
+        btnReset.addEventListener('click', () => {
+            judul.textContent = 'Akum Belum Berubah';
+            judul.style.color = '';
+            judul.style.fontSize = '';
+        });
+
+
+    </script>
+</body>
+</html>
